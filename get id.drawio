@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2021-03-09T13:02:50.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="EWLWgRLd-Mjkbw5PrKqG" version="14.4.5" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VfZhww4y6UEOnomoaD3f-21" value="server&#xa;" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="385" y="50" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-22" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="VfZhww4y6UEOnomoaD3f-21" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-23" value="" style="endArrow=classic;html=1;" parent="VfZhww4y6UEOnomoaD3f-21" source="VfZhww4y6UEOnomoaD3f-32" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="180" as="sourcePoint" />
+            <mxPoint x="50" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-24" value="database" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="605" y="50" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-25" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="VfZhww4y6UEOnomoaD3f-24" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-26" value="" style="endArrow=classic;html=1;entryX=-0.4;entryY=0.175;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="VfZhww4y6UEOnomoaD3f-33" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="65" y="158" as="sourcePoint" />
+            <mxPoint x="405" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-27" value="" style="endArrow=classic;html=1;" parent="1" source="VfZhww4y6UEOnomoaD3f-21" target="VfZhww4y6UEOnomoaD3f-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="220" as="sourcePoint" />
+            <mxPoint x="435" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="545" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-28" value="&lt;b&gt;start game&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="135" y="140" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-29" value="" style="endArrow=none;dashed=1;html=1;exitX=1.1;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="VfZhww4y6UEOnomoaD3f-22" target="VfZhww4y6UEOnomoaD3f-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="220" as="sourcePoint" />
+            <mxPoint x="435" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-30" value="&lt;b&gt;ack&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="515" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-31" value="&lt;b&gt;get id()&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="190" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-32" value="log in" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="205" y="50" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-33" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="VfZhww4y6UEOnomoaD3f-32" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-34" value="&lt;b&gt;get id()&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="305" y="160" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-35" value="" style="endArrow=none;dashed=1;html=1;" parent="1" source="VfZhww4y6UEOnomoaD3f-32" target="VfZhww4y6UEOnomoaD3f-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="260" as="sourcePoint" />
+            <mxPoint x="435" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-36" value="&lt;b&gt;ack&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="315" y="230" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-37" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" parent="1" vertex="1">
+          <mxGeometry x="55" y="40" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VfZhww4y6UEOnomoaD3f-38" value="&lt;b&gt;player&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="340" width="50" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
