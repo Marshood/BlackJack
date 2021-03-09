@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2021-03-09T12:12:11.343Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="rmNX14udkMcJNRgz3JtD" version="14.4.5" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="server&#xa;" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="OtrizDrGmQpnxOZSp3oa-23" value="" style="endArrow=classic;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" source="OtrizDrGmQpnxOZSp3oa-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="180" as="sourcePoint" />
+            <mxPoint x="50" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtrizDrGmQpnxOZSp3oa-1" value="database" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="OtrizDrGmQpnxOZSp3oa-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="OtrizDrGmQpnxOZSp3oa-1" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="OtrizDrGmQpnxOZSp3oa-13" value="" style="endArrow=classic;html=1;entryX=-0.4;entryY=0.175;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="OtrizDrGmQpnxOZSp3oa-22" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="188" as="sourcePoint" />
+            <mxPoint x="420" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtrizDrGmQpnxOZSp3oa-14" value="" style="endArrow=classic;html=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="OtrizDrGmQpnxOZSp3oa-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="450" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtrizDrGmQpnxOZSp3oa-15" value="&lt;b&gt;start game&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="170" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OtrizDrGmQpnxOZSp3oa-16" value="" style="endArrow=none;dashed=1;html=1;exitX=1.1;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="OtrizDrGmQpnxOZSp3oa-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="250" as="sourcePoint" />
+            <mxPoint x="450" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtrizDrGmQpnxOZSp3oa-17" value="&lt;b&gt;ack&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="240" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OtrizDrGmQpnxOZSp3oa-20" value="&lt;b&gt;get balance()&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="220" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OtrizDrGmQpnxOZSp3oa-21" value="log in" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="OtrizDrGmQpnxOZSp3oa-22" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="OtrizDrGmQpnxOZSp3oa-21" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="OtrizDrGmQpnxOZSp3oa-24" value="&lt;b&gt;get balance()&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="305" y="190" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OtrizDrGmQpnxOZSp3oa-25" value="" style="endArrow=none;dashed=1;html=1;" parent="1" source="OtrizDrGmQpnxOZSp3oa-21" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="290" as="sourcePoint" />
+            <mxPoint x="450" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtrizDrGmQpnxOZSp3oa-26" value="&lt;b&gt;ack&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="260" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8bZG8ziShY-zLSj7qh1_-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8bZG8ziShY-zLSj7qh1_-3" value="&lt;b&gt;player&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="370" width="50" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
